@@ -1,9 +1,10 @@
-
-import { Camera, IdealVideo, poseDetector} from '../../../Utils';
-import VideoPoseMatcher from '../../../Utils/PoseMatcher/Exercise'
-import curlChecker from '../../../Utils/PoseMatcher/Exercise/curl'
+import { Camera, poseDetector } from '../../../Utils';
+import YogaPoseMatcher from '../../../Utils/PoseMatcher/YogaAsan'
+import asanMatcher from '../../../Utils/PoseMatcher/YogaAsan/asanChecker'
+// import curlChecker from '../../../Utils/PoseMatcher/Exercise/curl'
 import { useEffect, useRef } from 'react';
-import styles from '../../../styles/HomePage.module.scss'
+import Image from 'next/image'
+import styles from '../../../Styles/HomePage.module.scss'
 
 function HomePage() {
     const [
@@ -24,14 +25,10 @@ function HomePage() {
             const USER_VIDEO = true
             const detector = new poseDetector(camera, USER_VIDEO)
             await detector.setupDetector()
+
             // detector.startDetection()
 
-            const idealVideo = new IdealVideo(videoRefIdeal.current, canvasRefIdeal.current, videoRef.current);
-            await idealVideo.setupCamera();
-            const detectorIdeal = new poseDetector(idealVideo, !USER_VIDEO)
-            await detectorIdeal.setupDetector();
-
-            let poseMatcher = new VideoPoseMatcher(detectorIdeal, detector, curlChecker, suggestionRef)
+            let poseMatcher = new YogaPoseMatcher(detector, asanMatcher.asan2Matcher, suggestionRef)
             poseMatcher.startMatching();
             // detectorIdeal.startDetection()
 
@@ -44,22 +41,13 @@ function HomePage() {
     }, []);
 
     return <div>
-        Something fucking awesome comming soon !
+        Yoga asan 2 !
         <br />
-            <div className="canvas-wrapper-ideal" ref={canvasContainerIdeal}>
-                <canvas id="output-ideal" ref={canvasRefIdeal} ></canvas>
-                <video id="video-ideal"
-                    src="/idealCurl.mkv"
-                    ref={videoRefIdeal}
-                    playsInline
-                    loop
-                    className={styles.videoElement}>
-                </video>
-            </div>
+        <Image src='/asans/asan2.jpg' width={500} height={300} />
         <div className="canvas-wrapper" ref={canvasContainer}>
             <canvas id="output" ref={canvasRef} ></canvas>
-            <video id="video" 
-            ref={videoRef} playsInline loop autoPlay
+            <video id="video"
+                ref={videoRef} playsInline loop autoPlay
                 className={styles.videoElement}>
             </video>
         </div>

@@ -1,10 +1,10 @@
 import Layout from "../../components/layout"
 
-function ProfilePage(){
+function MusicPage(){
     return <Layout>
         <div style={{color:"#000"}}>
-            Profile Page
+            Music Page
         </div>
     </Layout>
 }
-export default ProfilePage;
+export default MusicPage
