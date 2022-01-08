@@ -1,8 +1,8 @@
-#HealthifyAtHome
+# HealthifyAtHome
 
 A one stop fun-fledged web application for ur fitness.No need of a trainer now ,exercise at your home stress free,rest leave it to our ai trainer.In this stressed times having fun is important ,play our game and have fun while exercising.
 
-##Team Members
+## Team Members
 ```sh
 Pushpendra Vishwakarma
 Harshit Chauhan
