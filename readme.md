@@ -1,5 +1,5 @@
 ### 1. Clone Repo
-- git clone https://github.com/hyper-trophy/tra-AI-ner.git
+- git clone https://github.com/Harshit2929/tra-AI-ner/
 
 ### 2. Install yarn
 - npm install --global yarn
