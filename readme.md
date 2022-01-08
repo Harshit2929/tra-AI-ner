@@ -4,7 +4,6 @@ A one stop fun-fledged web application for ur fitness.No need of a trainer now ,
 
 ##Team Members
 ```sh
-<!--    git clone https://github.com/your_username_/Project-Name.git -->
 Pushpendra Vishwakarma
 Harshit Chauhan
 Harsh Suthar
@@ -32,20 +31,20 @@ Streaks have also been added so that user remains motivated and doesn't leave a 
 - Firebase
 - Three.js
 
-##Challenges we ran into
+## Challenges we ran into
 
 
 
 
 
-##Further upgrades we want to fulfil
+## Further upgrades we want to fulfil
 
 - We aim to add pwa to our web application so that same code can be used both for our web and mobile application,add offline access and push notifications for daily reminders of our exercises.
 - We aim to add leg movements so that we can include exercises related to movements of  lower body in our game.
 
 
 
-##Installation
+## Installation
 
 ### 1. Clone Repo
 - git clone https://github.com/Harshit2929/tra-AI-ner/
