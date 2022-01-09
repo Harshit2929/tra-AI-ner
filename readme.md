@@ -43,7 +43,9 @@ Streaks have also been added so that user remains motivated and doesn't leave a 
 
 [![Demo Video](https://img.youtube.com/vi/v=WeegoO-dvXs/0.jpg)](https://www.youtube.com/watch?v=WeegoO-dvXs)
 
+## Demo Link
 
+https://teaminventive.ml/
 
 
 ## Further upgrades we want to fulfil
