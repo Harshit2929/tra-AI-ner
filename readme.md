@@ -39,6 +39,9 @@ Streaks have also been added so that user remains motivated and doesn't leave a 
 - the biggest challage we encounter is to make the 3D game. The first challage is the model in game is 3D and the pose we are getting is 2D. Using some high school mathematiocs we were able to map 2D co-ordinated to 3D. The next challenge was to make the 3D model to copy the exact pose which we managed to do after few hit and trial.
 
 
+## Demo Video
+
+[![Demo Video](https://img.youtube.com/vi/v=WeegoO-dvXs/0.jpg)](https://www.youtube.com/watch?v=WeegoO-dvXs)
 
 
 
