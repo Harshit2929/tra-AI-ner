@@ -1,9 +1,11 @@
 # HealthifyAtHome
 
 HealthifyAtHome is a one stop application for ur fitness.No need of a trainer user our webb app and  our ai trainer will give u realtime feedback onyour exercise movements.We also have made a game In this stressed times having fun is also important ,play our game to alleviate ur stress and have fun while exercising.
+
 ## T187[Software Chasers]
-## Team Members
+
 ```sh
+Team Members->
 Pushpendra Vishwakarma
 Harshit Chauhan
 Harsh Suthar
@@ -41,7 +43,7 @@ Streaks have also been added so that user remains motivated and doesn't leave a 
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/v=WeegoO-dvXs/0.jpg)](https://www.youtube.com/watch?v=WeegoO-dvXs)
+[![Demo Video](https://img.youtube.com/vi/WeegoO-dvXs/0.jpg)](https://www.youtube.com/watch?v=WeegoO-dvXs)
 
 ## Demo Link
 
