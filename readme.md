@@ -1,6 +1,6 @@
 # HealthifyAtHome
 
-HealthifyAtHome is a one stop application for ur fitness.No need of a trainer user our webb app and  our ai trainer will give u realtime feedback onyour exercise movements.We also have made a game In this stressed times having fun is also important ,play our game to alleviate ur stress and have fun while exercising.
+HealthifyAtHome is a one stop application for ur fitness.No need of a trainer , our ai trainer will give u realtime feedback on user's exercise movements.We also have made a 3-D  fitness game. In this stressed times having fun is also important ,play our game to alleviate ur stress and have fun while exercising.
 
 ## T187[Software Chasers]
 
@@ -23,10 +23,10 @@ Streaks have also been added so that user remains motivated and doesn't leave a 
 ## Features
 
 - User can see his/her daily progress through our streak in profile.
-- A fun game has been built in which using hand movements one has to break obstacles in order to survive in the game.
-- Our ai trainer is compatible with both for yoga  and workout exercises.It will give the percentage score and even realtime feedback to user on what he can improve on.
+- A fun game has been built in which using hand movements one has to break obstacles in order to survive in the game.It can be acessed through our fitness game button in navbar.
+- Our ai trainer is compatible with both yoga  and workout exercises.It will give the percentage score and even realtime feedback to user on what he can improve on.
 - User can check his daily tasks that he/she has to do in /plans route.
-- We have added challenges  in which in a time limit user has to perform given number of reps.
+- We have added challenges  in which in a time limit user has to perform given number of reps.It can be acessed in our challenge button in navbar rout.
 
 
 ## Tech stack/Framework used
